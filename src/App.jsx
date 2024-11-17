@@ -7,7 +7,7 @@ import SiriImage from "./images/siri.png";
 function App() {
   return (
     <div>
-      <h1>Personal Digital Assistants</h1>
+      <h1 style={{ textAlign: "center" }}>Personal Digital Assistants</h1>
       {/* If props value is string we can pass it as plain string within quotes, for other values we have to pass it inside curly braces (JavaScript land) */}
       <ProfileCard title="Alexa" handle="@alexa99" imagePath={AlexaImage} />
       <ProfileCard
